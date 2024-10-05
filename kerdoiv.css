@@ -1,0 +1,108 @@
+nav {
+    background-color: transparent;
+    width: 100%;
+    box-shadow: 0.5px 0.5px 10px rgb(210, 210, 210);
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+nav img{
+    height: 70px;
+    width: 100%;
+}
+  
+nav a {
+    float: left;
+    display: block;
+    padding: 20px;
+}
+  
+.kezdetiszoveg{
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: rgb(83, 81, 158);
+}
+  
+.row img{
+  width: 70%;
+}
+  
+.row{
+    text-align: center;
+  
+}
+  
+.col-sm{
+    border-style: solid;
+    border-color: rgb(202, 215, 72);
+    background-color: white;
+    color: rgb(202, 215, 72);
+    border-radius: 5px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    border-width: 2.5px;
+}
+  
+.col-sm p{
+    text-decoration: none;
+}
+  
+.col-sm p:hover{
+    transition: 250ms;
+    color: rgb(83, 81, 158);
+}
+  
+.col-sm:hover{  
+    transition: 250ms;
+    background-color: rgb(202, 215, 72);
+    color: rgb(83, 81, 158);
+    border-radius: 10px;
+    border-color: rgb(83, 81, 158);
+}
+  
+  
+.borderek{
+    border-style: solid;
+    background-color:rgb(235, 235, 235);
+    border-color:#ededed;
+    padding: 3%;
+    border-radius: 1px;
+    border-radius: 5px;
+}
+  
+.borderek{
+    margin-bottom: 5%;
+}
+
+.borderek h4{
+  color: rgb(83, 81, 158);
+}
+
+.col p:hover {
+    color: white;
+}
+.radio-image {
+  cursor: pointer;
+}
+.col-sm {
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+}
+.col-sm.selected {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05); 
+}
+.radio-image {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.radio-image.selected {
+  transform: scale(1.1); 
+}
